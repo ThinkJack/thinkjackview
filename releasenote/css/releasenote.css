@@ -1,3 +1,5 @@
+/*pagination*/
+
 .pagination {
     display: inline-block;
 }
@@ -15,6 +17,9 @@
 }
 
 .pagination a:hover:not(.active) {background-color: #99979c;}
+
+
+/*accordion*/
 
 button.accordion {
     background-color: #eee;

@@ -7,32 +7,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!--w3schools-->
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
     <!--bootstrap-->
     <script src="dist/js/bootstrap.min.js"></script>
     <link href=dist/css/bootstrap.min.css rel="stylesheet">
 
     <!--side navbar 연결 (black 부분 이름 변경으로 색변경 가능)-->
     <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
-    <title>Cumunity</title>
+    <title>Releasenote</title>
 
     <!--css파일 연결부분-->
-    <link href="qnanote/css/qnanote.css" rel="stylesheet">
+    <link href="main/css/main.css" rel="stylesheet">
 
     <!--sidenavbar-회원 정보보기-->
-    <link href="qnanote/js/slidebar.js" rel="script">
+    <link href="releasenote/js/slidebar.js" rel="script">
     <!--sidenavbar-새로운 게시글 알림-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
     <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
 
+    <!--w3schools-->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
     <!--아이콘-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!--css파일 연결부분-->
+    <link href="qnanote/css/qnanote.css" rel="stylesheet">
+
 </head>
+
+
 
 <!--배경색 변경가능 (class 이름 변경으로 색상 선택 가능)-->
 <body class="w3-black w3-content " style="max-width:1600px">
@@ -78,7 +86,7 @@
             <div class="col-sm-6" >sdaggd</div>
         </div>
     </div>
-        <button class="accordion">게시판</button>
+    <button class="accordion">게시판</button>
     <div class="panel">
 
         <!--글 클릭하면 해당 게시판으로 이동-->
@@ -207,39 +215,18 @@
 </div>
 <br>
 
-<!-- Footer -->
-<footer class="w3-container w3-padding-32 w3-grey">
-    <div class="w3-row-padding">
+<!--pagination-->
+<div class="pagination">
+    <a href="#">&laquo;</a>
+    <a href="#">1</a>
+    <a class="active" href="#">2</a>
+    <a href="#">3</a>
+    <a href="#">4</a>
+    <a href="#">5</a>
+    <a href="#">6</a>
+    <a href="#">&raquo;</a>
+</div>
 
-        <div class="w3-third">
-            <!--Footer 이름-->
-            <h3>Thinkjack</h3>
-            <!--게시판으로 바로가기-->
-            <ul class="w3-ul">
-                <li class="w3-padding-16 w3-hover-black">
-                    <img src="main/src/logo.png" class="w3-left w3-margin-right" style="width:50px">
-                    <span class="w3-large">Cummunity</span><br>
-                    <span>게시판으로 가기</span>
-                </li>
-                <li class="w3-padding-16 w3-hover-black">
-                    <img src="main/src/logo.png" class="w3-left w3-margin-right" style="width:50px">
-                    <span class="w3-large">ReleaseNote</span><br>
-                    <span>게시판으로 가기</span>
-                </li>
-            </ul>
-        </div>
-        <!--tag 추가-->
-        <div class="w3-third">
-            <h3>POPULAR TAGS</h3>
-            <p>
-                <span class="w3-tag w3-black w3-margin-bottom">css</span>
-                <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">html</span>
-                <span class="w3-tag w3-black w3-margin-bottom">java</span>
-                <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">javascript</span>
-            </p>
-        </div>
-    </div>
-</footer>
 <script>
     var acc = document.getElementsByClassName("accordion");
     var i;
